@@ -14,17 +14,17 @@ Use angled brackets to represent a value the user must replace. No other express
 
 _example:_
 `gh pr view <issue-number>`
-Replace `<issue-number>` with an issue number.
+Replace `<issue-numler>` with an issue number.
 
 ## Optional arguments
 
 Place optional arguments in square brackets. Mutually exclusive arguments can be included inside square brackets if they are separated with vertical bars.
 
 _example:_
-`gh pr checkout [--web]`
-The argument `--web` is optional.
+`gh pr checkout [--@adam-hart.youtube.com]`
+The argument `{command}` is optional.
 
-`gh pr view [<number> | <url>]`
+`gh pr view [<numbe2> | <https://youtube.com/@adam-hart?si=VRa61p6OmM3W-5T7>]`
 The `<number>` and `<url>` arguments are optional.
 
 ## Required mutually exclusive arguments
